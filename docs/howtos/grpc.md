@@ -49,7 +49,7 @@ Where `<docker_reg>` is your Docker user or registry.
 Switch to another terminal and from the same directory, run the `greeter_client`. The output should be the same as running it outside of the container.
 
 ```shell
-$ docker run -p 50051:50051 <docker_reg>/grpc_example
+$ python greeter_client.py 
 Greeter client received: Hello, you!
 ```
 
